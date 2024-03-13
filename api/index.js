@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const dataController = require('./dataController');
+const dataController = require('../dataController');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
