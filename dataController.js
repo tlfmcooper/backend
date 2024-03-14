@@ -1,4 +1,4 @@
-const parseCSV = require('./csvParser');
+const parseCSV = require('./csvParser.js');
 
 const CSV_FILE_PATH = './import_export.csv';
 
