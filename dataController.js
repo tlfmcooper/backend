@@ -1,6 +1,7 @@
 const parseCSV = require('./csvParser.js');
 
-const CSV_FILE_PATH = './import_export.csv';
+const CSV_FILE_PATH = `${__dirname}/import_export.csv`;
+
 
 // Define transformData function
 function transformData(data) {
